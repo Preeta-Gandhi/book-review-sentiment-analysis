@@ -1,11 +1,3 @@
-## Name: Preeta C.Gandhi
-## TP Num: TP056719
-## Course: B.Sc. (Hons) Computer Science with Specialism in Data Analytics
-## Intake: APD3F2209CS(DA)
-## FYP Title: Sentiment Analysis on Book Review: A hybrid approach
-## Supervisor : Mr Raheem Mafas
-## 2nd Marker : ASSOC. PROF. DR. RAJA RAJESWARI
-
 import pickle
 import streamlit as st
 import nltk
