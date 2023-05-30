@@ -2,7 +2,6 @@ contractions==0.1.73
 gitdb==4.0.10
 GitPython==3.1.31
 imbalanced-learn==0.10.1
-importlib-metadata==6.5.0
 ipykernel==6.15.1
 ipython==8.4.0
 ipython-genutils==0.2.0
@@ -26,7 +25,6 @@ nltk==3.8.1
 notebook==6.4.12
 notebook_shim==0.2.2
 numpy==1.23.1
-packaging==21.3
 pandas==1.4.3
 pickleshare==0.7.5
 powerbiclient==3.0.0
