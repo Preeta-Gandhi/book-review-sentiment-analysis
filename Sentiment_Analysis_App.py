@@ -7,6 +7,10 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('vader_lexicon')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 
 # Load the model and vectorizer from the pickle files
