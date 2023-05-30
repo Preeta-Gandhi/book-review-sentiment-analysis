@@ -6,6 +6,7 @@ import contractions
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
 
 
 # Load the model and vectorizer from the pickle files
