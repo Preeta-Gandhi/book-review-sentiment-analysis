@@ -9,19 +9,14 @@ from nltk.stem import WordNetLemmatizer
 
 
 # Load the model and vectorizer from the pickle files
-model_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\model.pkl'
-vectorizer_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\vectorizer.pkl'
-stopwords_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\stopwords.pkl'
+# model_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\model.pkl'
+# vectorizer_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\vectorizer.pkl'
+# stopwords_path = r'C:\Users\ASUS\Desktop\FYP\pickle files\stopwords.pkl'
 
 # Load stop words from pickle file
-with open(stopwords_path, "rb") as f:
-    my_sw = pickle.load(f)
-
-with open(model_path, 'rb') as f:
-    LSVC_vader_smote_classifier = pickle.load(f)
-    
-with open(vectorizer_path, 'rb') as f:
-    tfidf = pickle.load(f)
+my_sw = pickle.load(open('stopwords.pkl', 'rb'))
+LSVC_vader_smote_classifier = pickle.load(open('model.pkl', 'rb'))
+tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 
 
 #--------------------------------------------------------------------------------------
